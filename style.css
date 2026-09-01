@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 25%;
+    height: 70%;
+    background-color: rgb(43, 48, 53);
+}
+
+.tela {
+    display: flex;
+    height: 15%;
+    width: 90%;
+    background-color: aliceblue;
+}
+
+.teclado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 90%;
+    height: 75%;
+    flex-wrap: wrap;
+}
+
+.teclas {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 24%;
+    width: 24%;
+    border: solid 1px aliceblue;
+}
