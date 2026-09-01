@@ -25,6 +25,9 @@ body {
     height: 15%;
     width: 90%;
     background-color: aliceblue;
+    font-size:xx-large;
+    justify-content: end;
+    align-items: end;
 }
 
 .teclado {
@@ -34,7 +37,7 @@ body {
     background-color: aliceblue;
     width: 90%;
     height: 75%;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 
 .teclas {
@@ -46,4 +49,9 @@ body {
     height: 24%;
     width: 24%;
     border: solid 1px aliceblue;
+    transition: 0.2s;
+} 
+
+.teclas:hover {
+    transform: scale(1.05);
 }
